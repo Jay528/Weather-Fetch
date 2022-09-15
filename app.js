@@ -20,7 +20,7 @@ const elementsToOutput = {
 // fetch weatherData from Weather API (Function)
 async function weatherData(city) {
     try {
-        const response = await fetch(`https://api.weatherbit.io/v2.0/current?key=ee872c6d4d5044a69a024876cef5057e&city=${city}`);
+        const response = await fetch(`https://api.weatherbit.io/v2.0/current?key=3c423cedf9c943f1a79df5eadb156f86&city=${city}`);
         const info = await response.json();
         return info;
     }
